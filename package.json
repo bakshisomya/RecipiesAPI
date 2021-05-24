@@ -2,7 +2,7 @@
   "name": "RecipiesAPI",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/config/index.js",
   "scripts": {
     "test": "nodemon ./src/config"
   },

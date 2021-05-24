@@ -14,14 +14,14 @@ router.post('/create',CreateRecipeController);
  * @desc read all recipies
  * @access PUBLIC
  * */
- router.get('/read',ReadRecipeController);
+ router.post('/read',ReadRecipeController);
 
  /**
  * @route /recipe/readone/:id
  * @desc read one recipie
  * @access PUBLIC
  * */
-  router.get('/readone/:id',ReadOneRecipeController);
+  router.post('/readone/:id',ReadOneRecipeController);
 
 /**
  * @route /update/:id/:patch
